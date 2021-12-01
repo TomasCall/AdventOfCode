@@ -12,9 +12,7 @@ def main():
     for i in range(1,len(sum_of_three)):
         if sum_of_three[i] > sum_of_three[i-1]:
             counter += 1
-    print(counter)
-    print(sum_of_three)
-
+    print(f" The answer is :{counter}")
 
 
 if __name__ == "__main__":
