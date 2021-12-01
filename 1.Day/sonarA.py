@@ -7,7 +7,7 @@ def main():
     for i in range(1,len(lines)):
         if int(lines[i]) > int(lines[i-1]):
             counter += 1
-    print(f" The answer is :{counter}")
+    print(f"  The answer is :{counter}")
 
 
 if __name__ == "__main__":
